@@ -1,0 +1,48 @@
+
+@media only screen and (max-width:991px){
+    .service-img,
+    .about-img{
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width:580px){
+    .navbar-collapse{
+        position: absolute;
+    top: 80px;
+    background: #fbf8fcc2;
+    left: 0px;
+    right: 0px;
+    padding:10px 20px;
+    text-align: center;
+    }
+    .navbar-brand img{
+        height: 65px;
+    }
+    .hero-section h1{
+        font-size: 30px;
+    }
+    .heading-main{
+        font-size: 24px;
+    }
+    .tag-heading{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .service-img,
+    .about-img{
+        height: 370px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+    .expert-icon{
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+    .heading-tertiary{
+        font-size: 18px;
+    }
+}
