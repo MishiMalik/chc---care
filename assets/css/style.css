@@ -40,10 +40,17 @@ body {
     width: auto;
 }
 
-.navbar-brand {
+.navbar-brand span{
     font-size: 24px;
     font-weight: 700;
     color: var(--primary);
+}
+
+.navbar-brand p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--drak-gray);
 }
 
 .navbar-nav {
@@ -75,7 +82,16 @@ body {
     /* background-position: center; */
     margin-top: -100px;
 }
-
+.hero-section-about{
+    background: linear-gradient(rgba(0, 0, 0, 0.389), rgba(0, 0, 0, 0.389)), url('../images/Fun-Group-Activities-for-Seniors-to-Combat-Loneliness.png') !important;
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+}
+.hero-section-service{
+    background: linear-gradient(rgba(0, 0, 0, 0.389), rgba(0, 0, 0, 0.389)), url('../images/choosing-the-right-care-home_500x300.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
 .nav-btn {
     background-color: var(--primary);
     border-radius: 3px;
@@ -89,14 +105,20 @@ body {
     color: white !important;
 }
 
+.nav-item,
 .nav-link {
-    /* color: white !important; */
+    cursor: pointer;
 }
-
+.nav-link:hover{
+    color: #E275B6;
+}
 .hero-img {
     height: 400px;
 }
-
+header{
+    position: relative;
+    z-index: 30;
+}
 .tag-header {
     font-size: 22px;
     font-weight: 500;
@@ -122,7 +144,7 @@ body {
 .tag-heading {
     font-size: 22px;
     font-weight: 600;
-    color: var(--dark-primary);
+    color: #E275B6;
     font-family: var(--secondry-font);
     text-decoration: underline;
     font-style: italic;
@@ -183,7 +205,9 @@ body {
     /* justify-content: center; */
     height: 100%;
 }
-
+.service-card-shadow{
+    box-shadow: rgba(128, 126, 126, 0.747) 0px 3px 8px;  
+}
 .service-icon {
     /* background-color: var(--primary); */
     color: var(--primary);
