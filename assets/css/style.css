@@ -261,3 +261,7 @@ header{
 .text-primary {
     color: var(--primary) !important;
 }
+.footer-links{
+    font-size: 14px;
+    font-family: var(--secondry-font);
+}
