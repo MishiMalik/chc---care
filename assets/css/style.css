@@ -35,7 +35,7 @@ body {
     width: 20%;
 }
 
-.navbar-brand img {
+.navbar-brand-img {
     height: 80px;
     width: auto;
 }
@@ -88,9 +88,10 @@ body {
    background-size: cover !important;
 }
 .hero-section-service{
-    background: linear-gradient(rgba(0, 0, 0, 41%), rgba(0, 0, 0, 41%)), url('../images/choosing-the-right-care-home_500x300.jpg') !important;
+    background: linear-gradient(rgba(0, 0, 0, 41%), rgba(0, 0, 0, 41%)), url('../images/chc-services.jpg') !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    background-position:bottom;
 }
 .nav-btn {
     background-color: var(--primary);

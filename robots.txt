@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://carehomecompliance.com/sitemap.xml
