@@ -1,50 +1,54 @@
+<?php
+
+include_once "form_submit.php";
+
+?>
+
 <!doctype html>
 <html lang="en">
 
 <head>
-    <title>Care Home Compliance</title>
+    <title>Care Home Compliance (CHC) - Expert Services for Care Providers</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Care Home Compliance (CHC) offers expert compliance, HR management, and operational support for UK care homes, ensuring regulatory success and operational excellence.">
+    <meta name="description"
+    content="Discover Care Home Compliance (CHC), offering expert services in regulatory compliance, HR management, and CQC relations for care homes in the UK. Learn how we support care providers with operational excellence and tailored solutions.">
 
-   <!-- Bootstrap CSS v5.3.2 -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" media="all" />
+   
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" media="print" onload="this.media='all'">
 
-   <!-- icons -->
-   <link rel="stylesheet" href="assets/icons/icons/all.css" media="all">
-   <link rel="stylesheet" href="assets/icons/icons/sharp-solid.css" media="all">
-   <link rel="stylesheet" href="assets/icons/icons/sharp-regular.css" media="all">
-   <link rel="stylesheet" href="assets/icons/icons/sharp-light.css" media="all">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" media="all">
-   
-   <!-- fonts -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" media="all">
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="all">
-   <link rel="canonical" href="https://carehomecompliance.com/about-care-home-compliance.html">
-   
-   <!-- style -->
-   <link rel="stylesheet" href="assets/css/style.css" media="all">
-   <link rel="stylesheet" href="assets/css/responsive.css" media="all">
-   <style>
-    .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 41%), rgba(0, 0, 0, 41%)), url('/assets/images/20160614-adults.jpg');
-    height: 490px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: center; */
-    margin-top: -100px;
-}
-   </style>
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="assets/icons/icons/all.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/icons/icons/sharp-solid.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/icons/icons/sharp-regular.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/icons/icons/sharp-light.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" media="print" onload="this.media='all'">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/responsive.css" media="print" onload="this.media='all'">
+    
+  
+    
+    <link rel="canonical" href="https://carehomecompliance.com/care-home-compliance-services.php">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
 </head>
-
 <body>
     <div class="top-contact d-md-block d-none">
         <div class="d-flex justify-content-center align-items-center">
             <hr class="me-3">
-            <a href=" " class="text-decoration-none text-white " data-aos="fade-down">
+            <a href="tel:+44 203 585 4002" class="text-decoration-none text-white " data-aos="fade-down">
                 <div class="d-flex align-items-center">
                     <i class="fa-light fa-phone me-2"></i>
                     0203 585 4002
@@ -62,35 +66,47 @@
                     LinkedIn
                 </div>
             </a>
-           
             <hr class="ms-3">
         </div>
     </div>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light ">
             <div class="container">
-                <a class="navbar-brand py-0 d-flex align-items-center" href="index.html">
-                    <img src="assets/images/logo.png" alt="Care Home Compliance Logo" class="me-3 navbar-brand-img">
+                <a class="navbar-brand py-0 d-flex align-items-center" href="index.php">
+                    <img src="assets/images/logo.png" alt="Care Home Compliance Logo " class="me-3 navbar-brand-img">
                     <div class="d-lg-block d-none">
-                        <span  data-aos="zoom-in">Care Home Compliance </span>
-                            <p  class="mb-0 pb-0">Care, Compliance and Confidence</p>
+                        <span data-aos="zoom-in">Care Home
+                            Compliance </span>
+                        <p class="mb-0 pb-0">Care, Compliance and Confidence</p>
                     </div>
                 </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <!--<ul class="navbar-nav ms-auto mt-2 mt-lg-0">-->
+                    <!--    <li class="nav-item">-->
+                    <!--        <a class="nav-link " href="index.php">Home</a>-->
+                    <!--    </li>-->
+                    <!--    <li class="nav-item">-->
+                    <!--        <a class="nav-link" href="about.php">About</a>-->
+                    <!--    </li>-->
+                    <!--    <li class="nav-item">-->
+                    <!--        <a class="nav-link active-page" href="services.php">Services</a>-->
+                    <!--    </li>-->
+                    <!--    <li class="nav-item">-->
+                    <!--        <a class="nav-link nav-btn ms-md-4 text-center" href="#contact-form">Get in Touch</a>-->
+                    <!--    </li>-->
+                    <!--</ul>-->
+                      <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active-page" href="#">Home</a>
+                            <a class="nav-link " href="https://carehomecompliance.com">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about-care-home-compliance.html">About</a>
+                            <a class="nav-link " href="about-care-home-compliance.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="care-home-compliance-services.html">Services</a>
+                            <a class="nav-link active-page" href="care-home-compliance-services.php">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-btn ms-md-4 text-center" href="#contact-form">Get in Touch</a>
@@ -101,79 +117,29 @@
         </nav>
     </header>
     <main>
-        <section class="">
-            <div class="hero-section">
+    <section class="">
+            <div class="hero-section hero-section-service">
                 <div class="container h-100">
                     <div class="row h-100">
                         <div data-aos="fade-up"
                             class="col-lg-10 mx-auto text-center h-100  d-flex  flex-column justify-content-center mt-4 pt-4 overflow-hidden">
                             <!-- <span class="tag-header">Welcome to </span> -->
-                             <!-- <h1 class="">Care Home Compliance</h1> -->
-                            <h1 class="my-2 pb-2 ">Ensuring Care Home Excellence Across the UK</h1>
-                            <h2>Your Trusted Partner in Managing Care Industry Complexities</h2>
+                            <h1 class="mt-2 ">Care Home Compliance Services</h1>
+                            <!-- <p>Your Trusted Partner in Managing Care Industry Complexities</p> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-lg-5 py-4 bg-light">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="d-lg-none d-lg-block">
-                            <!-- <span class="tag-heading">Who We Are</span> -->
-                            <h2 class="mt-2 heading-main">Helping Care Providers</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center py-3 ">
-
-                    <div class="col-lg-6  order-lg-1 order-2 ">
-                        <div class="d-lg-block d-none">
-                            <!-- <span class="tag-heading">Who We Are</span> -->
-                            <h2 class="mt-2 heading-main mb-3">Helping Care Providers</h2>
-                        </div>
-                        <p class="text">
-                            At Care Home Compliance (CHC), we specialise in supporting care home providers across the
-                            UK, ensuring smooth and compliant operations. As a proud subsidiary of the esteemed
-                            <a href="https://www.compliance-experts.co.uk/" class="text-primary" target="_blank"><b>CRC Group</b></a>, we bring a wealth of
-                            expertise and a steadfast commitment to excellence in the care
-                            sector.
-                        </p>
-                        <p class="text">
-                       
-                            We help Care Home providers deliver exceptional service while ensuring regulatory excellence. Our team of sector experts offer comprehensive support, from streamlining operations to mastering CQC relationships.
-
-                        </p>
-
-                        <p class="text">
-                            We handle the complexities of compliance, HR management, and reputation protection, giving you the ability to focus on your core business and the confidence to lead your care home to greater quality and efficiency.
-                        </p>
-
-                        <p class="text">
-                            CHC, is dedicated to your success, allowing you to focus on what truly matters - your residents. Partner with us and transform your challenges into opportunities.
-
-
-                        </p>
-
-                    
-                    </div>
-                    <div class="col-lg-5 ms-auto order-lg-2 order-1 overflow-hidden">
-                        <img src="assets/images/care-home-compliance.avif" alt="Care Home Excellence in the UK"
-                            class="mx-auto img-fluid  about-img" data-aos="fade-left">
-                    </div>
-                </div>
-            </div>
-        </section>
-
+   
         <section class="py-5 services-section">
             <div class="container pb-lg-4">
                 <div class="row ">
                     <div class="col-lg-12 text-center">
                         <!-- <span class="tag-heading text-center pink-text mx-auto">What we do</span> -->
-                        <h2 class="mt-2 heading-main text-center text-white">Our Core Services</h2>
+                        <h2 class="mt-2 heading-main text-center text-white">What we do</h2>
                         <p class="text text-white text-center mb-0 mt-3">
-                            Our suite of services allows care homes to maintain the highest standards of care while managing through the complex regulatory framework.
+                            Our suite of services allows care homes to maintain the highest standards of care while navigating the complex regulatory landscape.
                         </p>
                         <p class="text text-white text-center mb-0 pb-0">
                             Our expert team offers comprehensive support, from streamlining operations to mastering CQC relationships.
@@ -193,7 +159,7 @@
                                 Regulatory Compliance
                             </h2>
                             <p class="text text-center mb-0 pb-0">
-                                Stay ahead of the curve with our expert guidance on regulatory changes. Minimise risks
+                                Stay ahead of the curve with our expert guidance on regulatory changes. Minimize risks
                                 and ensure full compliance, safeguarding your operations.
                             </p>
                         </div>
@@ -239,7 +205,7 @@
                                 Complaints Handling and Investigation
                             </h2>
                             <p class="text text-center mb-0 pb-0">
-                                 Handle complaints with transparency and fairness. Our experienced team ensures prompt
+                                o Handle complaints with transparency and fairness. Our experienced team ensures prompt
                                 resolutions, protecting your reputation and maintaining trust with clients and
                                 stakeholders.
                             </p>
@@ -254,81 +220,166 @@
                 </div>
             </div>
         </section>
-
-        <section class="py-5 bg-light">
+        
+        <section class="py-5  ">
             <div class="container ">
-                <div class="row ">
-                    <div class="d-lg-none d-block">
-                        <!-- <span class="tag-heading">Benifits</span> -->
-                        <h2  class="mt-2 heading-main ">Why Choose CHC?</h2>
-                    </div>
-                </div>
-                <div class="row align-items-center py-lg-3">
-                    <div class="col-lg-5 overflow-hidden">
-                        <img src="assets/images/compliance-expertise.jpg" alt="Why Choose Care home compliance? Our 30 years of experience in compliance, regulatory management, and operational excellence deliver effective and efficient results." class="mx-auto img-fluid  service-img" data-aos="fade-right">
-                    </div>
-                    <div class="col-lg-6  ms-auto ">
-                        <div class="d-lg-block d-none">
-                            <!-- <span class="tag-heading">Benifits</span> -->
-                            <h2 class="mt-2 heading-main">Why Choose CHC?</h2>
+            
+                <div class="row align-items-center py-3 ">
+                    <div class="col-lg-12">
+                        <div class="">
+                            <h2 class="mt-2 heading-main  ">CHC Expertise</h2>
                         </div>
-                        <p class="text">
-                            With over 30 years in compliance, regulatory management and operational excellence, we deliver results effectively and efficiently.
+                        <p class="text  ">
+                            CHC gives you access to a team of dedicated specialists who can help your business unravel the complexities of Care Home regulation, specialist health care personnel management and complaints and feedback management.
+                            <br>
+                            Depending on your available resources, we can take on as much or as little as you need to help you focus on your core business of caring for your residents.
+
+Replace the text alongside the icons with:
                         </p>
+                    </div>
+                    
+                    <div class="col-lg-6  me-auto order-lg-1 order-2 ">
+                    
+
+                        <div class="d-flex align-items-start mt-4 ">
+                            <div class="expert-icon me-md-4 me-2">
+                                <i class="fa-solid fa-shield-check"></i>
+                            </div>
+                            <div>
+                                <h3 class="heading-tertiary ">
+                                    Regulatory Compliance:
+                                </h3>
+                                <p class="text ">
+                                    Our regulation experts are always up to date with the latest regulation for your industry. They provide you with the guidance and support you need to ensure your business is and remains fully compliant.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start">
+                            <div class="expert-icon me-md-4 me-2">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div>
+                                <h3 class="heading-tertiary ">
+                                    Human Resources:
+                                </h3>
+                                <p class="text ">
+                                    Our HR specialist are experts in navigating the employment landscape. As well as providing legislation guidance, we provide on-site services including staff counselling, staff relationship management, and meticulous personnel file maintenance.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start">
+                            <div class="expert-icon me-md-4 me-2">
+                                <i class="fa-solid fa-handshake-simple"></i>
+                            </div>
+                            <div>
+                                <h3 class="heading-tertiary ">
+                                    CQC Matters:
+                                </h3>
+                                <p class="text ">
+                                    Our experts provide guidance, support and tailored programmes to help you build and maintain a good relationship with CQC.
+
+
+                                </p>
+                            </div>
+                        </div>
 
                         <div class="d-flex align-items-start">
+                            <div class="expert-icon me-md-4 me-2">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                            </div>
+                            <div>
+                                <h3 class="heading-tertiary ">
+                                    Complaints Handling:
+                                </h3>
+                                <p class="text ">
+                                    Our team provides comprehensive support in handling and investigating complaints, ensuring transparency and prompt resolution.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ms-auto order-lg-2 order-1   overflow-hidden">
+                        <img src="assets/images/about-expertise.jpg" alt=""
+                            class="mx-auto img-fluid  service-img" data-aos="fade-left">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  
+        <section class="py-lg-5 py-4 bg-light">
+            <div class="container ">
+            
+                <div class="row align-items-center py-3 ">
+                          <div class="col-lg-12">
+                            <div class="">
+                                <!-- <span class="tag-heading">Commitment</span> -->
+                                <h2 class="mt-2 heading-main">CHC Commitment</h2>
+                                <p class="text">
+                                    CHC is part of the CRC Group, a nationwide organisation specialising in compliance and risk management consultancy. With over 75 years of experience in designing, implementing and manging compliance strategies, they underpin the focus and knowledge CHC brings to the Care Home sector.
+    
+     
+                                </p>
+                                <p class="text">
+                                    CHC is committed to each of our partners' business, whether using us as a fully outsourced resource or a convenient information resource, our focus is your success.
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col-lg-5 me-auto  overflow-hidden mb-lg-0 mb-2">
+                            <img src="assets/images/compliance-expertise.jpg" alt="Care Home Compliance team demonstrating commitment to compliance and excellence"
+                                class="mx-auto img-fluid  about-img" data-aos="fade-left">
+                        </div>
+                    <div class="col-lg-6  ">
+                   
+                        <div class="d-flex align-items-start ">
                             <div class="expert-icon me-md-4 me-2">
                                 <i class="fa-solid fa-timer"></i>
                             </div>
                             <div>
                                 <h3 class="heading-tertiary">
-                                    Expertise and Experience
+                                    Trusted by Care Providers Nationwide:
                                 </h3>
                                 <p class="text">
-                                    Benefit from our team's extensive knowledge and experience in the care industry.
+                                    Headquartered in London, we support organisation throughout the United Kingdom
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-start">
+                        <div class="d-flex align-items-start mt-4">
                             <div class="expert-icon me-md-4 me-2">
                                 <i class="fa-solid fa-circle-info"></i>
                             </div>
                             <div>
                                 <h3 class="heading-tertiary">
-                                    Comprehensive Support
+                                    Dedicated Support:
                                 </h3>
                                 <p class="text">
-                                    From regulatory compliance to human resources, CQC matters, and complaints
-                                    handling, we cover all aspects crucial to your operations.
+                                    Our team of professionals is here to guide you through
+every step, ensuring your operations run smoothly and in full compliance.
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-start">
+                        <div class="d-flex align-items-start mt-4">
                             <div class="expert-icon me-md-4 me-2">
                                 <i class="fa-solid fa-spa"></i>
                             </div>
                             <div>
                                 <h3 class="heading-tertiary">
-                                    Peace of Mind
+                                    Excellence in Care:
                                 </h3>
                                 <p class="text">
-                                    Focus on providing exceptional care to your residents while we manage compliance
-                                    and operational complexities.
+                                    We believe that compliance and operational excellence
+                                    go hand-in-hand with providing exceptional care to residents.
                                 </p>
                             </div>
                         </div>
+
+                      
                     </div>
-
-                    <!-- <div class="mt-lg-4 pt-lg-2 mt-3 ">
-                            <a href="about-care-home-compliance.html" class="main-btn">Discover More</a>
-                        </div> -->
+              
                 </div>
-
-            </div>
             </div>
         </section>
-
-
         <section class="py-5 contact-section" id="contact-form">
             <div class="container">
                 <div class="row align-items-center">
@@ -346,10 +397,10 @@
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div>
-                                <h3 class="heading-tertiary text-white mb-0 pb-0">
+                                <h2 class="heading-tertiary text-white mb-0 pb-0">
                                     Phone
-                                </h3>
-                                <a href="tel:0203 585 4002" class="text text-white text-decoration-none">
+                                </h2>
+                                <a href="tel:+44 203 585 4002" class="text text-white text-decoration-none">
                                     0203 585 4002
                                 </a>
                             </div>
@@ -359,9 +410,9 @@
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div>
-                                <h3 class="heading-tertiary text-white mb-0 pb-0">
+                                <h2 class="heading-tertiary text-white mb-0 pb-0">
                                     Email
-                                </h3>
+                                </h2>
                                 <a href="mailto:info@carehomecompliance.com" class="text text-white text-decoration-none">
                                     info@carehomecompliance.com
                                 </a>
@@ -383,69 +434,31 @@
                     </div>
                     <div class="col-lg-6 mx-auto">
 
-                        <form action="" class="mt-lg-0 mt-4" data-aos="zoom-in">
-                            <div class="service-card text-start d-flex flex-column align-items-start px-lg-4">
-                                <h2 class="heading-tertiary text-start text-primary">
-                                    Contact Care Home Compliance
-                                </h2>
-                                <div class="mb-3 w-100 mt-3">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input type="text" name="name" id="name" class="form-control" placeholder=""
-                                        aria-describedby="helpId" />
-                                </div>
-                                <div class="mb-3 w-100">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" name="email" id="email" class="form-control" placeholder=""
-                                        aria-describedby="helpId" />
-                                </div>
-                                <div class="mb-3 w-100">
-                                    <label for="phone" class="form-label">Phone Number</label>
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder=""
-                                        aria-describedby="helpId" />
-                                </div>
-                                <div class="mb-3 w-100">
-                                    <label for="careHomes" class="form-label">How many care homes does your business manage?</label>
-                                    <input type="text" name="careHomes" id="careHomes" class="form-control" placeholder=""
-                                        aria-describedby="helpId" />
-                                </div>
-                                <div class="mb-3 w-100">
-                                    <label for="location" class="form-label">Where is your business located?</label>
-                                    <input type="text" name="location" id="location" class="form-control" placeholder=""
-                                        aria-describedby="helpId" />
-                                </div>
-                                <div class="mb-3 w-100">
-                                    <label for="description" class="form-label">Description</label>
-                                    <textarea class="form-control w-100" name="description" id="description" rows="3"
-                                        style="width: 100% !important;"></textarea>
-                                </div>
-                                <button class="main-btn py-3 border-0 ms-auto">Submit</button>
-                            </div>
-                        </form>
-                        
+                        <?php include_once 'form.php' ?>
                     </div>
                 </div>
             </div>
 
         </section>
     </main>
-    <footer class=" text-center" style="background-color: #008080;">
+   <footer class=" text-center" style="background-color: #008080;">
         <!-- Grid container -->
         <div class="container p-4 ">
             <!-- Section: Social media -->
-            <img src="assets/images/WHITE COPY.png" alt="Care Home Compliance Logo White" class="" width="50">
+            <img src="assets/images/WHITE COPY.png" alt="Care Home Compliance Logo White" class="footer-logo" >
             <section class="mt-4">
               <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="d-flex justify-content-center align-items-center footer-links">
                                <div class="me-3">
-                                <a href="index.html" class="text-decoration-none text-white">Home</a>
+                                <a href="index.php" class="text-decoration-none text-white">Home</a>
                                </div>
                                <div class="me-3">
-                                <a href="about-care-home-compliance.html"  class="text-decoration-none text-white">About</a>
+                                <a href="about-care-home-compliance.php"  class="text-decoration-none text-white">About</a>
                                </div>
                                <div class="me-3">
-                                <a href="care-home-compliance-services.html"  class="text-decoration-none text-white">Services</a>
+                                <a href="care-home-compliance-services.php"  class="text-decoration-none text-white">Services</a>
                                </div>
                                <div>
                                 <a href="https://irp.cdn-website.com/07d7be76/files/uploaded/Privacy_Statement.pdf"  class="text-decoration-none text-white">Privacy Policy</a>
@@ -492,17 +505,30 @@
         <!-- Copyright -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+<script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous" defer></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        crossorigin="anonymous" defer></script>
+        
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
+
     <script>
         AOS.init();
     </script>
+     <!-- JavaScript to change media attribute after page load -->
+    // <script>
+    //     document.addEventListener("DOMContentLoaded", function() {
+    //         var links = document.querySelectorAll('link[media="all"]');
+    //         links.forEach(function(link) {
+    //             link.media = 'all';
+    //         });
+    //     });
+    // </script>
 </body>
 
 </html>
